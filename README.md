@@ -13,7 +13,7 @@ function hasCommonStudentInBothClub(studentsOfScienceClub, studentsOfSportClub) 
     for (let i = 0; i < studentsOfScienceClub.length; i++) {
         for (let j = 0; j < studentsOfSportClub.length; j++) {
             if (studentsOfScienceClub[i] == studentsOfSportClub[j]) {
-                return false;
+                return true;
             }
         }
     }
